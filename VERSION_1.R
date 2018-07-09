@@ -17,10 +17,9 @@ hb_mod$Percent.of.low.income.Units<-(hb_mod$low/hb_mod$All.Units)*100
 #Percent high
 hb_mod$Percent.of.high.income.Units<-(hb_mod$high/hb_mod$All.Units)*100
 #Percent of rental
-hb_mod$Percent.of.rental.Units <- (hb_mod$Counted.Rental.Units/hb_mod$All.Units)*100
+hb_mod$Percent.of.rental.Units<-(hb_mod$Counted.Rental.Units/hb_mod$All.Units)*100
 #Percent of homeownership
-hb_mod$Percent.of.homeownership.Units <- (hb_mod$Counted.Homeownership.Units/hb_mod$All.Units)*100
-
+hb_mod$Percent.of.homeownership.Units<-(hb_mod$Counted.Homeownership.Units/hb_mod$All.Units)*100
 
 hb_mod
 
