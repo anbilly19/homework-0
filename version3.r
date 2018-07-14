@@ -53,6 +53,6 @@ as.data.frame(test$predicted.units,test$Counted.Homeownership.Units)
 summary(linearMod)
 #Here we test if our predicted values are relatively equal to the the actual values
 
-test$TRUFALS <- near(test$Counted.Homeownership.Units, test$predicted.units, tol = test$Percent.of.homeownership.Units * 0.05)
+test$TRUFALS <- near(test$Counted.Homeownership.Units, test$predicted.units, tol = test$Counted.Homeownership.Units * 0.05)
 gezaehlt <- count(test, vars = TRUFALS)
 gezaehlt
